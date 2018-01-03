@@ -27,6 +27,23 @@ public class Deluxe extends Burger {
 		
 		return soda;
 	}
+	
+	@Override
+	protected void setLettuce(Boolean lettuce) {
+	}
+	
+	@Override
+	protected void setTomato(Boolean tomato) {
+	}
+	
+	@Override
+	protected void setOnion(Boolean onion) {
+	}
+	
+	@Override
+	protected void setPickle(Boolean pickle) {
+		
+	}
 	@Override
 	protected void verifyBurger() {
 		System.out.println("\t**** BURGER ****");
